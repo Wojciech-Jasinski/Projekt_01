@@ -1,3 +1,21 @@
 * {
   font-family: "Quicksand", sans-serif;
 }
+
+.container {
+  display: flex;
+  background-color: blueviolet;
+  justify-content: center;
+  align-items: center;
+  height: 1000px;
+  flex-direction: row;
+}
+
+.item-3-h {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  width: 200px;
+  height: 200px;
+}
